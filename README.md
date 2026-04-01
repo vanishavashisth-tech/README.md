@@ -26,7 +26,7 @@ Features
 
 API Used
 •	Fake Store API
-•	Endpoint: 'https://fakestoreapi.in/api/products';
+•	Endpoint: https://fakestoreapi.com/
 
 
 Concepts Covered
