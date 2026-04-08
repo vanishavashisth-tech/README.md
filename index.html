@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUXE — Premium Store</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-inner">
+
+      <a href="#" class="logo">
+        <span class="logo-icon">◈</span>
+        <span class="logo-text">LUXE</span>
+      </a>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="favBtn" title="View Favourites">
+          <span>❤️</span>
+          <span class="badge" id="favCount">0</span>
+        </button>
+        <button class="icon-btn" id="themeBtn" title="Toggle Dark Mode">🌙</button>
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1 class="hero-title">Discover Amazing Products</h1>
+    <p class="hero-subtitle">Browse, search, and save your favourites — all in one place.</p>
+  </section>
+
+
+  <!-- CONTROLS BAR -->
+  <div class="controls-bar">
+    <div class="controls-inner">
+
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="Search products…"
+          autocomplete="off"
+        />
+        <button class="clear-btn" id="clearBtn" title="Clear search">✕</button>
+      </div>
+
+      <select id="categorySelect" class="control-select">
+        <option value="all">All Categories</option>
+      </select>
+
+      <select id="sortSelect" class="control-select">
+        <option value="default">Sort: Default</option>
+        <option value="price-low">Price: Low → High</option>
+        <option value="price-high">Price: High → Low</option>
+        <option value="name-az">Name: A → Z</option>
+        <option value="name-za">Name: Z → A</option>
+      </select>
+
+      <button class="toggle-btn" id="showFavBtn">❤️ Favourites Only</button>
+
+    </div>
+  </div>
+
+
+  <!-- RESULTS BAR -->
+  <div class="results-bar">
+    <p class="results-text" id="resultsText"></p>
+  </div>
+
+
+  <!-- LOADER -->
+  <div class="spinner-wrap" id="spinnerWrap">
+    <div class="spinner"></div>
+    <p>Loading products…</p>
+  </div>
+
+
+  <!-- ERROR STATE -->
+  <div class="error-wrap" id="errorWrap" style="display:none">
+    <div class="error-card">
+      <p class="error-icon">⚠️</p>
+      <h3>Something went wrong</h3>
+      <p>We couldn't load products. Check your internet connection.</p>
+      <button class="btn-primary" id="retryBtn">Try Again</button>
+    </div>
+  </div>
+
+
+  <!-- PRODUCT GRID -->
+  <main class="product-grid" id="productGrid"></main>
+
+
+  <!-- EMPTY STATE -->
+  <div class="empty-wrap" id="emptyWrap" style="display:none">
+    <p class="empty-icon">🔦</p>
+    <h3>No products found</h3>
+    <p>Try a different search term or reset your filters.</p>
+    <button class="btn-primary" id="resetBtn">Reset Filters</button>
+  </div>
+
+
+  <!-- PAGINATION -->
+  <div class="pagination" id="pagination"></div>
+
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modalOverlay" style="display:none">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 <strong>LUXE</strong> — Premium Store &nbsp;|&nbsp; CS Coursework</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
