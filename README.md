@@ -51,3 +51,6 @@ Project Goals
 •	Practice JavaScript array methods
 •	Build a responsive and clean UI
 •	Handle user interactions effectively
+
+https://readme-md-gray.vercel.app/
+
