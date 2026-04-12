@@ -77,7 +77,7 @@ const PRODUCTS = [
   {
     id: 10,
     title: "Gold Plated Mangalsutra",
-    category: "jewelery",
+    category: "jewellery",
     price: 3499,
     description: "Traditional gold plated mangalsutra with black beads. Nickel-free and hypoallergenic.",
     image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop&auto=format"
@@ -85,7 +85,7 @@ const PRODUCTS = [
   {
     id: 11,
     title: "Kundan Necklace Set",
-    category: "jewelery",
+    category: "jewellery",
     price: 1899,
     description: "Stunning kundan necklace set with matching earrings. Perfect for bridal wear.",
     image: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop&auto=format"
@@ -93,7 +93,7 @@ const PRODUCTS = [
   {
     id: 12,
     title: "Diamond Look Bangles (Set of 6)",
-    category: "jewelery",
+    category: "jewellery",
     price: 799,
     description: "Beautiful diamond-look bangles set. Lightweight, durable and scratch resistant.",
     image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?w=400&h=400&fit=crop&auto=format"
@@ -101,7 +101,7 @@ const PRODUCTS = [
   {
     id: 13,
     title: "Pearl Drop Earrings",
-    category: "jewelery",
+    category: "jewellery",
     price: 599,
     description: "Classic pearl drop earrings with gold-plated base. Elegant for all occasions.",
     image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop&auto=format"
@@ -109,7 +109,7 @@ const PRODUCTS = [
   {
     id: 14,
     title: "Silver Toe Ring Set",
-    category: "jewelery",
+    category: "jewellery",
     price: 399,
     description: "Set of 4 pure silver toe rings. Adjustable size and comfortable all-day wear.",
     image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=400&fit=crop&auto=format"
