@@ -92,10 +92,10 @@ const PRODUCTS = [
   },
   {
     id: 12,
-    title: "Diamond Look Bangles (Set of 6)",
+    title: "Diamond Look earrings",
     category: "jewellery",
     price: 799,
-    description: "Beautiful diamond-look bangles set. Lightweight, durable and scratch resistant.",
+    description: "Beautiful diamond-look earrings set. Lightweight, durable and scratch resistant.",
     image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?w=400&h=400&fit=crop&auto=format"
   },
   {
